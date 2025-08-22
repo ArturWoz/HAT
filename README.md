@@ -71,7 +71,7 @@
     }
 
 ## Environment
-- [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8!!! It would cause abnormal performance.)**
+- [PyTorch between 1.7 and 2.1.2](https://pytorch.org/get-started/previous-versions/) **(Recommend **NOT** using torch 1.8!!! It would cause abnormal performance.)**
 - [BasicSR == 1.3.4.9](https://github.com/XPixelGroup/BasicSR/blob/master/INSTALL.md) 
 ### Installation
 Install Pytorch first.
