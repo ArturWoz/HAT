@@ -104,7 +104,7 @@ def window_partition(x, window_size):
         windows: (num_windows*b, window_size, window_size, c)
     """
     b, h, w, c = x.shape
-    x = x.view(b, h // window_size, window_size, w // window_size, window_size, c)
+    x = x.view(b, h // window_size, window_size, w // window_size, window_size, c) #changed
     windows = x.permute(0, 1, 3, 2, 4, 5).contiguous().view(-1, window_size, window_size, c)
     return windows
 
@@ -120,7 +120,7 @@ def window_reverse(windows, window_size, h, w):
     Returns:
         x: (b, h, w, c)
     """
-    b = int(windows.shape[0] / (h * w / window_size / window_size))
+    b = (windows.shape[0] // (h * w // window_size // window_size))
     x = windows.view(b, h // window_size, w // window_size, window_size, window_size, -1)
     x = x.permute(0, 1, 3, 2, 4, 5).contiguous().view(b, h, w, -1)
     return x
