@@ -1,6 +1,6 @@
 cog
 einops
 torch>=1.7
-basicsr==1.3.4.9
+basicsr @ git+https://github.com/ArturWoz/BasicSR
 numpy<2.0
 onnx
