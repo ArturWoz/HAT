@@ -73,13 +73,15 @@
 ## Environment
 - [PyTorch between 1.7 and 2.1.2](https://pytorch.org/get-started/previous-versions/) **(Recommend **NOT** using torch 1.8!!! It would cause abnormal performance.)**
 - [BasicSR == 1.3.4.9](https://github.com/XPixelGroup/BasicSR/blob/master/INSTALL.md) 
-### Installation
-Install Pytorch first.
-Then,
-```
-pip install -r requirements.txt
-python setup.py develop
-```
+
+## Installation
+- Install torch.txt (windows) `pip install -r torch.txt` or pick CUDA/CPU version [manually](https://pytorch.org/get-started/previous-versions/)
+- Install torch 1.13 and torchvision 1.15.1 (linux) `pip install torch==1.13.0 torchvision==1.15.1`
+- Install typing-extensions 4.14.1 `pip install typing-extensions 4.14.1`
+- Run setup script `python setup.py develop`
+- Install requirements.txt `pip install -r requirements.txt`
+- Downgrade numpy to 1.26.4 `pip install numpy==1.26.4`
+- Install torch.txt (linux) `pip install -r torch.txt`
 
 ## How To Test
 
