@@ -110,7 +110,7 @@ The training logs and weights will be saved in the `./experiments` folder.
 
 ## How To Export
 - Refer to `./options/export` for the configuration file of the model to export.
-- The training command is like
+- The export command is like
 ```
 python hat/export.py -opt options/export/HAT_SRx4_ImageNet-pretrain.yml
 ```
