@@ -109,7 +109,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 The training logs and weights will be saved in the `./experiments` folder.
 
 ## How To Export
-- Refer to `./options/export` for the configuration file of the model to train.
+- Refer to `./options/export` for the configuration file of the model to export.
 - The training command is like
 ```
 python hat/export.py -opt options/export/HAT_SRx4_ImageNet-pretrain.yml
