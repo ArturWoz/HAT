@@ -114,7 +114,9 @@ The training logs and weights will be saved in the `./experiments` folder.
 python hat/export.py -opt options/export/HAT_SRx4_ImageNet-pretrain.yml
 ```
 
-The training logs and weights will be saved in the `./export` folder.
+The .onnx file will be saved in the `./export` folder.
+
+Test config files will also work - export will run with default settings.
 
 ## Results
 The inference results on benchmark datasets are available at
