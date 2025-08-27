@@ -71,7 +71,7 @@
     }
 
 ## Installation
-- (Windows) Install torch 2.1.2 from `pip install -r torch.txt` or pick version [manually](https://pytorch.org/get-started/previous-versions/)
+- (Windows) Install torch 2.1.2 from `pip install -r pytorch.txt` or pick version [manually](https://pytorch.org/get-started/previous-versions/)
 - (Linux) Install torch 1.13 and torchvision 1.15.1 `pip install torch==1.13.0 torchvision==1.15.1`
 - Install typing-extensions 4.14.1 `pip install typing-extensions 4.14.1`
 - Run setup script `python setup.py develop`
