@@ -71,13 +71,12 @@
     }
 
 ## Installation
-- (Windows) Install torch 2.1.2 from `pip install -r pytorch.txt` or pick version [manually](https://pytorch.org/get-started/previous-versions/)
-- (Linux) Install torch 1.13 and torchvision 0.15.1 `pip install torch==1.13.0 torchvision==0.15.1`
-- Install typing-extensions 4.14.1 `pip install typing-extensions 4.14.1`
-- Run setup script `python setup.py develop`
+
+- Setup a Python 3.8 environment
+- Install torch 1.9 `pip install -r pytorch-pre.txt` or pick version [manually](https://pytorch.org/get-started/previous-versions/)
 - Install requirements.txt `pip install -r requirements.txt`
-- Downgrade numpy to 1.26.4 `pip install numpy==1.26.4`
-- (Linux) Install torch 2.1.2 from `pip install -r torch.txt` or pick version [manually](https://pytorch.org/get-started/previous-versions/)
+- Run setup script `python setup.py develop`
+- Install torch 2.1.2 from `pip install -r pytorch.txt` or pick version [manually](https://pytorch.org/get-started/previous-versions/)
 
 ## How To Test
 
